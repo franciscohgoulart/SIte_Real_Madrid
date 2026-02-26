@@ -48,7 +48,7 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: rgb(3, 3, 185);
-    color: goldenrod;
+    color:goldenrod;
     font-family: Arial, Helvetica, sans-serif;
 
 
@@ -65,12 +65,20 @@ margin-top:40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: goldenrod; 
+    padding: 10px;
+    border-radius: 20px;
+}
+#escalação h2 {
+    width: 100%;          
+    text-align: center;   
+    margin-bottom: 20px;  
 }
 .jogador {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin:20px;
-    color: goldenrod;
+    color: rgb(255, 255, 255);
     font-size: 16px;
 }
