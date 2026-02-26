@@ -1,0 +1,54 @@
+body {
+    margin: 0%;
+
+    background-color: white;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+
+
+
+#icon {
+    width: 65px;
+
+}
+
+.noticia {
+    background-color: blue;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    color: goldenrod;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.img_noticia {
+    width: 400px;
+}
+
+#noticias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(3, 3, 185);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
